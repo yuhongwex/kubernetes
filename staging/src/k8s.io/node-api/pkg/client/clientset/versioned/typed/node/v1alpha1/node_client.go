@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	rest "k8s.io/client-go/rest"
-	v1alpha1 "k8s.io/node-api/pkg/apis/node/v1alpha1"
+	"k8s.io/client-go/rest"
+	"k8s.io/node-api/pkg/apis/node/v1alpha1"
 	"k8s.io/node-api/pkg/client/clientset/versioned/scheme"
 )
 
